@@ -62,14 +62,6 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-100dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/CARRUSEL"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-100dp" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="427dp"
@@ -136,6 +128,67 @@
         android:textSize="12dp"
         tools:layout_editor_absoluteX="73dp"
         tools:layout_editor_absoluteY="240dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="413dp"
+        android:layout_height="330dp"
+        android:background="#F8BD14"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background_yellow"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Solicitud De Medicamentos"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="390dp"
+        android:layout_height="267dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:text="¡Nuestro compromiso es contigo y con tu bienestar!En Cruz Verde entendemos la importancia de quedarse en casa cumpliendo con el aislamiento obligatorio, así como la de garantizar la disponibilidad y el acceso a los medicamentos para todos. Por esa razón, creamos este canal para que de una manera fácil y rápida agendes la entrega de tus medicamentos a domicilio. "
+        android:gravity="fill_horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_background_yellow"
+        app:srcCompat="@drawable/imagenFormulario"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/chatbot"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rounded_background_orange"
+        android:padding="12dp"
+        app:srcCompat="@drawable/accesibilidad"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="145dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
