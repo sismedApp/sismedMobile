@@ -6,13 +6,136 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="425dp"
+        android:layout_height="64dp"
+        android:background="#10c0e7"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Pedidos"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="93dp"
+        android:layout_height="74dp"
+        android:src="@drawable/sismedLogo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/black"
+        android:tint="#FFFFFF"
+        app:icon="@drawable/buscador"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:src="@drawable/CARRUSEL"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/CARRUSEL"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="427dp"
+        android:layout_height="61dp"
+        android:background="#10BFE6"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Nosotros"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Contacto"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Afiliados"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="PQR'S"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="280dp"
+        android:layout_height="58dp"
+        android:background="#65000000"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="240dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
